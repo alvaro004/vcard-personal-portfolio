@@ -1999,3 +1999,21 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
+
+/* Alvaro's styles */
+.icon-box1 {
+  width: fit-content;
+  padding: 20px;
+  font-size: var(--fs-4);
+  font-weight: bold;
+  color: white;
+}
+.icon-box1:hover {
+  /* height: 50px; */
+  background-color: hsl(45, 54%, 58%);
+  color: hsl(45, 54%, 58%);
+  transition: ease-in-out 0.5s;
+}
+.icon-box1 a {
+  color: white;
+}
