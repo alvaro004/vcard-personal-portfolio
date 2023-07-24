@@ -2028,3 +2028,10 @@ textarea.form-input::-webkit-resizer {
   height: 50px;
   margin: 10px 20px 10px 0;
 }
+
+.timeline-item-title {
+  margin-bottom: unset;
+}
+.timeline-item-subtitle {
+  margin-bottom: 5px;
+}
