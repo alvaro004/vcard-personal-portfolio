@@ -154,14 +154,10 @@
         </div>
       </aside>
 
-      <!--
-      - #main-content
-    -->
+      <!--- #main-content -->
 
       <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
+        <!--- #NAVBAR -->
 
         <nav class="navbar">
           <ul class="navbar-list">
@@ -187,9 +183,7 @@
           </ul>
         </nav>
 
-        <!--
-        - #ABOUT
-      -->
+        <!--- #ABOUT -->
 
         <article class="about active" data-page="about">
           <header>
@@ -204,9 +198,7 @@
             </p>
           </section>
 
-          <!--
-          - service
-        -->
+          <!--- service-->
 
           <section class="service">
             <h3 class="h3 service-title">What i'm doing</h3>
@@ -226,12 +218,7 @@
 
               <li class="service-item">
                 <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40" />
                 </div>
 
                 <div class="service-content-box">
@@ -255,9 +242,7 @@
             </ul>
           </section>
 
-          <!--
-          - testimonials modal
-        -->
+          <!--- testimonials modal-->
 
           <div class="modal-container" data-modal-container>
             <div class="overlay" data-overlay></div>
@@ -270,14 +255,14 @@
           </div>
         </article>
 
-        <!--
-        - #RESUME
-      -->
+        <!--- RESUME ARTICLE-->
 
         <article class="resume" data-page="resume">
           <header>
             <h2 class="h2 article-title">Resume</h2>
           </header>
+
+          <!-- EDUCATION SECTION -->
 
           <section class="timeline">
             <!-- create a button to dowloan the cv -->
@@ -317,6 +302,8 @@
             </ol>
           </section>
 
+          <!-- WORK EXPERIENCE SECTION -->
+
           <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
@@ -333,15 +320,40 @@
 
                 <span>December 2021 - June 2022</span>
 
-                <p class="timeline-text">
-                  ● Analyze and report business operating performance and assess project profitability. <br />
-                  ● Use of agile methodologies as a framework for organization, collaboration and management of large and diverse teams. <br />
-                  ● Support the other team members towards the achievement of common objectives and direct coordination with potential users and clients. <br />
-                  ● Peer code review and quality testing.
-                </p>
+                <style>
+                  .worsk-expericence-bullets {
+                    color: white;
+                  }
+                  .reset-item {
+                    list-style: disc;
+                    list-style-position: outside;
+                    margin: 0 0 0 17px;
+                    color: #ffbc5e;
+                  }
+                  .reset-item span {
+                    color: var(--light-gray);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                  }
+                </style>
+
+                <ul>
+                  <li class="reset-item">
+                    <span> Analyze and report business operating performance and assess project profitability. </span>
+                  </li>
+                  <li class="reset-item">
+                    <span> Use of agile methodologies as a framework for organization, collaboration and management of large and diverse teams. </span>
+                  </li>
+                  <li class="reset-item">
+                    <span> Support the other team members towards the achievement of common objectives and direct coordination with potential users and clients. </span>
+                  </li>
+                  <li class="reset-item"><span> Peer code review and quality testing. </span></li>
+                </ul>
               </li>
             </ol>
           </section>
+
+          <!-- SKILLS SECTION -->
 
           <section class="timeline">
             <div class="title-wrapper">
@@ -451,11 +463,55 @@
               </li>
             </ol>
           </section>
+
+          <!-- LANGUAGES SECTION -->
+
+          <section class="timeline skill">
+            <div class="title-wrapper margin-botton-tittle">
+              <div class="icon-box">
+                <img src="./assets/images/languages-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Languages</h3>
+            </div>
+
+            <ol class="timeline-list time-list-modify">
+              <li class="timeline-item skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">English</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="timeline-item skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Spanish</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="timeline-item skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Guarani</h5>
+                  <data value="20">20%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 20%"></div>
+                </div>
+              </li>
+            </ol>
+          </section>
         </article>
 
-        <!--
-        - #PORTFOLIO
-      -->
+        <!--- #PORTFOLIO-->
 
         <article class="portfolio" data-page="portfolio">
           <header>

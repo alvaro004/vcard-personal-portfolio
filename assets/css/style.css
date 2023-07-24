@@ -2035,3 +2035,12 @@ textarea.form-input::-webkit-resizer {
 .timeline-item-subtitle {
   margin-bottom: 5px;
 }
+
+.time-list-modify {
+  width: 70%;
+}
+
+.margin-botton-tittle {
+  margin: 0 0 25px 0 !important;
+  gap: 15px !important;
+}
