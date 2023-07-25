@@ -2044,3 +2044,58 @@ textarea.form-input::-webkit-resizer {
   margin: 0 0 25px 0 !important;
   gap: 15px !important;
 }
+
+.worsk-expericence-bullets {
+  color: white;
+}
+.reset-item {
+  list-style: disc;
+  list-style-position: outside;
+  margin: 0 0 0 17px;
+  color: #ffbc5e;
+}
+.reset-item span {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.certificate-title {
+  margin: 0 0 10px 0;
+}
+.icon-box2 {
+  font-size: var(--fs-8);
+  padding: 10px;
+  font-weight: normal;
+  height: 30px;
+  border-radius: 9px;
+  gap: 8px;
+}
+.icon-box2 a:hover {
+  color: #ffbc5e;
+}
+.title-pointer {
+  cursor: pointer;
+}
+.title-wrapper-certificate {
+  margin: 0 0 15px 0 !important;
+}
+
+.icon-box-certificate img {
+  width: 50%;
+}
+
+.worsk-expericence-bullets {
+  color: white;
+}
+.reset-item {
+  list-style: disc;
+  list-style-position: outside;
+  margin: 0 0 0 17px;
+  color: #ffbc5e;
+}
+.reset-item span {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}

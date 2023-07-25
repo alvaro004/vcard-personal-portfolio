@@ -162,7 +162,7 @@
             </li>
 
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
+              <button class="navbar-link" data-nav-link>Certifications</button>
             </li>
 
             <li class="navbar-item">
@@ -173,7 +173,7 @@
 
         <!--- #ABOUT -->
 
-        <article class="about active" data-page="about">
+        <article class="about" data-page="about">
           <header>
             <h2 class="h2 article-title">About me</h2>
           </header>
@@ -307,23 +307,6 @@
                 <p class="timeline-text timeline-item-subtitle">Software Natura, Asunción, Paraguay.</p>
 
                 <span>December 2021 - June 2022</span>
-
-                <style>
-                  .worsk-expericence-bullets {
-                    color: white;
-                  }
-                  .reset-item {
-                    list-style: disc;
-                    list-style-position: outside;
-                    margin: 0 0 0 17px;
-                    color: #ffbc5e;
-                  }
-                  .reset-item span {
-                    color: var(--light-gray);
-                    font-weight: var(--fw-300);
-                    line-height: 1.6;
-                  }
-                </style>
 
                 <ul>
                   <li class="reset-item">
@@ -699,16 +682,6 @@
               </li>
             </ul>
           </section>
-        </article>
-
-        <!--
-        - #BLOG
-      -->
-
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
 
           <section class="blog-posts">
             <ul class="blog-posts-list">
@@ -847,11 +820,61 @@
           </section>
         </article>
 
-        <!--
-        - #CONTACT
-      -->
+        <!-- CERTIFICATIONS ARTICLE -->
 
-        <article class="contact" data-page="contact">
+        <article class="blog" data-page="certifications">
+          <header>
+            <h2 class="h2 article-title">Certifications</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper title-wrapper-certificate">
+              <div class="icon-box icon-box-certificate">
+                <img src="./assets/images/code-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Programming Languages</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificate-title">JavasScript</h4>
+
+                <div class="title-wrapper title-pointer">
+                  <div class="button icon-box icon-box1 icon-box2">
+                    <a href="#" target="_blank">show credentials </a>
+                    <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                  </div>
+                </div>
+              </li>
+            </ol>
+
+            <div class="title-wrapper title-wrapper-certificate">
+              <div class="icon-box icon-box-certificate">
+                <img src="./assets/images/certificate-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Other Certificates</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificate-title">English Proficiency Certification</h4>
+
+                <div class="title-wrapper title-pointer">
+                  <div class="button icon-box icon-box1 icon-box2">
+                    <a href="./assets/certificates/English Score Certificate Alvaro Rodriguez.pdf" target="_blank">show credentials </a>
+                    <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--- #CONTACT  -->
+
+        <article class="contact active" data-page="contact">
           <header>
             <h2 class="h2 article-title">Contact</h2>
           </header>
@@ -859,7 +882,7 @@
           <section class="mapbox" data-mapbox>
             <figure>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7496427.443036335!2d-58.45043874999999!3d-23.447296399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945c083490f13d63%3A0xb3faff611d582ef3!2sParaguay!5e0!3m2!1ses-419!2spy!4v1690299332405!5m2!1ses-419!2spy"
                 width="400"
                 height="300"
                 loading="lazy"
@@ -870,7 +893,7 @@
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
+            <form action="https://formsubmit.co/alvarollano0004@gmail.com" class="form" method="post" data-form>
               <div class="input-wrapper">
                 <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
@@ -879,7 +902,7 @@
 
               <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
+              <button class="form-btn" type="submit" data-form-btn>
                 <ion-icon name="paper-plane"></ion-icon>
                 <span>Send Message</span>
               </button>
