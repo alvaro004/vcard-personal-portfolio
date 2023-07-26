@@ -2103,3 +2103,20 @@ textarea.form-input::-webkit-resizer {
   display: none !important;
   animation: fade 1s ease backwards !important;
 }
+
+.more-about-text {
+  margin: 15px 0 15px 0;
+  font-weight: var(--fw-500);
+}
+.extra-space {
+  margin-bottom: 15px;
+}
+
+.blog-content-modify {
+  padding: 20px 0 10px 0;
+  /* display: flex; */
+}
+.blog-posts-list-modify {
+  display: flex;
+  flex-wrap: wrap;
+}
