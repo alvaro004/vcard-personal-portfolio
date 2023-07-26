@@ -173,7 +173,7 @@
 
         <!--- #ABOUT -->
 
-        <article class="about active" data-page="about">
+        <article class="about" data-page="about">
           <header>
             <h2 class="h2 article-title">About me</h2>
           </header>
@@ -574,25 +574,54 @@
 
         <!-- CONTENT PAGE FOR INDIVIDUALS -->
 
-        <style>
-          .hide-page {
-            display: none !important;
-            animation: fade 1s ease backwards !important;
-          }
-        </style>
+        <style></style>
 
-        <article class="content-page" data-page-name="contentPage">
+        <article class="content-page active" data-page-name="contentPage">
           <header>
             <h2 class="h2 article-title">More About</h2>
           </header>
 
           <!-- first section -->
+          <style>
+            .more-about-text {
+              margin: 15px 0 15px 0;
+              font-weight: var(--fw-500);
+            }
+            .extra-space {
+              margin-bottom: 15px;
+            }
+          </style>
 
-          <section class="hide-page" data-item-page-name="finance">
-            <header>
-              <h2 class="h2">Finance</h2>
-            </header>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat est doloribus debitis.</p>
+          <section class="" data-item-page-name="finance">
+            <h3 class="h3">Guess My Number</h3>
+            <p class="about-text more-about-text">
+              Guess My Number is a basic webpage game created to practice JavaScript concepts and improve styling skills. No frameworks were used, only the basic languages for front-end web development. The site was deployed using Netlify and a demo is available to showcase the
+              project.
+            </p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://guessmynumberthegamev02.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+              </div>
+            </div>
           </section>
 
           <!-- second section -->

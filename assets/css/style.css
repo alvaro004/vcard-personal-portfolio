@@ -2099,3 +2099,7 @@ textarea.form-input::-webkit-resizer {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+.hide-page {
+  display: none !important;
+  animation: fade 1s ease backwards !important;
+}
