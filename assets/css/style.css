@@ -2120,3 +2120,17 @@ textarea.form-input::-webkit-resizer {
   display: flex;
   flex-wrap: wrap;
 }
+
+.go-back-btn {
+  color: aliceblue;
+  padding: 10px 30px;
+  background-color: #cf7a03;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 40px 0 0 0;
+}
+.go-back-btn:hover {
+  transition: ease-in-out 0.5s;
+  background-color: #ffbc5e;
+  font-weight: normal;
+}
