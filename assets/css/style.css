@@ -2119,6 +2119,7 @@ textarea.form-input::-webkit-resizer {
 .blog-posts-list-modify {
   display: flex;
   flex-wrap: wrap;
+  gap: 0 40px !important;
 }
 
 .go-back-btn {
