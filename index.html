@@ -173,7 +173,7 @@
 
         <!--- #ABOUT -->
 
-        <article class="about" data-page="about">
+        <article class="about active" data-page="about">
           <header>
             <h2 class="h2 article-title">About me</h2>
           </header>
@@ -537,14 +537,14 @@
             </div>
 
             <ul class="project-list">
-              <li class="project-item active" data-filter-item data-category="web development" data-name-id="finance">
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="guess-my-number">
                 <a href="#">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
-                    <img src="./assets/images/guess-my-number.png" alt="finance" loading="lazy" />
+                    <img src="./assets/images/guess-my-number.png" alt="guess-my-number" loading="lazy" />
                   </figure>
 
                   <h3 class="project-title">Guess My Number</h3>
@@ -553,17 +553,33 @@
                 </a>
               </li>
 
-              <li class="project-item active" data-filter-item data-category="web development" data-name-id="orizon">
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="San-juan-artists">
                 <a href="#">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
-                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy" />
+                    <img src="./assets/images/San-juan-artists .png" alt="San-juan-artists" loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Orizon</h3>
+                  <h3 class="project-title">San Juan Bautista Artists</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="bonnet-analytics">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/bonnets-landing.png" alt="bonnet-analytics" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Bonnet Analytics Landing Page</h3>
 
                   <p class="project-category">Web development</p>
                 </a>
@@ -574,16 +590,14 @@
 
         <!-- CONTENT PAGE FOR INDIVIDUALS -->
 
-        <style></style>
-
-        <article class="content-page active" data-page-name="contentPage">
+        <article class="content-page" data-page-name="contentPage">
           <header>
             <h2 class="h2 article-title">More About</h2>
           </header>
 
           <!-- first section -->
 
-          <section class="" data-item-page-name="finance">
+          <section class="hide-page" data-item-page-name="guess-my-number">
             <h3 class="h3">Guess My Number</h3>
             <p class="about-text more-about-text">
               Guess My Number is a basic webpage game created to practice JavaScript concepts and improve styling skills. No frameworks were used, only the basic languages for front-end web development. The site was deployed using Netlify and a demo is available to showcase the
@@ -645,18 +659,108 @@
             <div class="title-wrapper title-pointer extra-space">
               <div class="button icon-box icon-box1 icon-box2">
                 <a href="https://guessmynumberthegamev02.netlify.app/" target="_blank">Open Demo </a>
-                <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                <img src="./assets/images/new-window-icon.svg" alt="new-windows" width="10" />
               </div>
             </div>
           </section>
 
           <!-- second section -->
 
-          <section class="hide-page" data-item-page-name="orizon">
-            <header>
-              <h2 class="h2">Orizon</h2>
-            </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate laudantium ab.</p>
+          <section class="hide-page" data-item-page-name="San-juan-artists">
+            <h3 class="h3">San Juan Bautista Artists</h3>
+            <p class="about-text more-about-text">
+              This project is a basic website focused on showcasing artists from the city of San Juan Bautista, Paraguay. The website was created using HTML and CSS, with the added bonus of incorporating Swiper JS to add dynamic functionality. The website features a list of
+              artists, as well as a gallery of their work.
+            </p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/San-juan-artists .png" alt="San-juan-artists" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 13, 2022</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://artistasresaltantessanjuaninos.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-window" width="10" />
+              </div>
+            </div>
+          </section>
+
+          <!-- third section -->
+
+          <section class="hide-page" data-item-page-name="bonnet-analytics">
+            <h3 class="h3">Bonnet Analytics Landing Page</h3>
+            <p class="about-text more-about-text">A basic landing page that focuses on the look and feel of the page.</p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/bonnets-landing.png" alt="bonnet-analytics" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 13, 2022</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://xenodochial-montalcini-97f97a.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-window" width="10" />
+              </div>
+            </div>
           </section>
 
           <button data-go-back-btn="goBack" class="go-back-btn">Go back</button>
